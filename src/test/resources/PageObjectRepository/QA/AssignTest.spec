@@ -1,0 +1,32 @@
+#Object Definitions
+===================================================================================================================
+Assigntst                xpath     //div[text()='Assign Test']
+Assessments              xpath     //div[text()='ASSESSMENTS']
+Headings                 xpath     //mat-panel-title[contains(text(),'${Text}')]
+Unassigned               xpath     //mat-panel-title[contains(text(),'Unassigned')]
+Completed                xpath     //mat-panel-title[contains(text(),'Completed')]
+Submissions              xpath     (//div[contains(text(),'Submissions')])[1]
+SubmissionPage           xpath     //div[contains(text(),'SUBMISSIONS')]
+Message                  xpath     //span[contains(text(),'Successfully')]
+share                    xpath     //button[text()='Share Solutions']
+scores                   xpath     //button[text()='Share Scores']
+Back                     xpath     (//img[contains(@class,'cursor-pointer')])[3]
+Publish                  xpath     (//div[text()='Publish'])[1]
+Notification             xpath     //mat-icon
+threedots                xpath     (//img[contains(@class,'mat-menu')])[3]
+dots                     xpath     (//div[contains(@class,'mr-3')])[74]//img[contains(@class,'mat-menu')]
+Options                  xpath     //span[contains(text(),'${Text}')]
+QuestionPaper            xpath     //span[text()='Question Paper']
+Download                 xpath     //a[text()='Download Assessment']
+Close                    xpath     //button[text()='Close']
+AnswerKey                xpath     //span[text()='Answer Key']
+Password                 xpath     //span[text()='Password']
+PasswordMsg              xpath     //p[text()='No password set']
+Duplicatetst             xpath     //span[text()='Duplicate Test']
+heading                  xpath     //h4
+GenerateTst              xpath     //div[contains(text(),'Generate Test')]
+EnterTstName             xpath     (//input)[2]
+Monitortst               xpath     //span[contains(text(),'Monitor')]
+close                    xpath     //img[contains(@class,'close')]
+txtfield                 xpath     //input[contains(@class,'search')]
+===================================================================================================================
