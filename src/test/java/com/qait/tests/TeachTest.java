@@ -1,9 +1,6 @@
 package com.qait.tests;
 
-import static org.testng.Assert.assertEquals;
-
 import org.testng.Assert;
-import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 
 import com.qait.automation.TestSessionInitiator;
@@ -12,9 +9,11 @@ public class TeachTest extends TestSessionInitiator {
 
 	@Test(priority = 1)
 	public void verify_user_is_able_to_login() {
-		LoginPage.launchApplicationUrl();
-		LoginPage.navigateToSignInWithSchoolId();
-		LoginPage.UserIsAbleToLoginWithValidCrendentials();
+		loginAction.launchApplicationUrl();
+		loginAction.ClickSignIn_UsingSchoolId();
+		loginAction.enterValidCredentials();
+		loginAction.clickOnContine();
+		Assert.assertTrue(loginAction.verifyHomepage());
 
 	}
 
@@ -31,7 +30,6 @@ public class TeachTest extends TestSessionInitiator {
 	@Test(priority = 4)
 	public void Verify_user_navigates_to_Teach_page_on_clicking_on_Teach_tab() {
 
-		
 		Assert.assertTrue(Teach.user_navigates_to_Teach_page());
 	}
 
@@ -51,7 +49,6 @@ public class TeachTest extends TestSessionInitiator {
 	{
 		Assert.assertTrue(Teach.user_navigates_to_chapters_page());
 
-		
 	}
 
 	@Test(priority = 8)
@@ -224,67 +221,66 @@ public class TeachTest extends TestSessionInitiator {
 		Teach.Submit_button_should_be_disabled();
 		Assert.assertTrue(Teach.submit_button_should_be_enabled_on_selecting_any_option());
 	}
-	@Test(priority=39)
-	public void verify_message_displayed_on_clicking_back_icon()
-	{
+
+	@Test(priority = 39)
+	public void verify_message_displayed_on_clicking_back_icon() {
 		Assert.assertTrue(Teach.message_displayed_on_clicking_back_icon());
 	}
-	@Test(priority=40)
-	public void verify_two_options_gets_displayed_on_clicking_back()
-	{
+
+	@Test(priority = 40)
+	public void verify_two_options_gets_displayed_on_clicking_back() {
 		Assert.assertTrue(Teach.two_options_gets_displayed_on_clicking_back());
 	}
-	/*@Test(priority=41)
-	public void verify_user_navigates_to_same_question_on_clicking_Continue()
-	{
-		Assert.assertTrue(Teach.user_navigates_to_same_question_on_clicking_Continue());
-	}*/
-	
-	@Test(priority=41)
-	public void verify_user_naviagtes_to_concept_page_on_clicking_Exit()
-	{
+	/*
+	 * @Test(priority=41) public void
+	 * verify_user_navigates_to_same_question_on_clicking_Continue() {
+	 * Assert.assertTrue(Teach.user_navigates_to_same_question_on_clicking_Continue(
+	 * )); }
+	 */
+
+	@Test(priority = 41)
+	public void verify_user_naviagtes_to_concept_page_on_clicking_Exit() {
 		Assert.assertTrue(Teach.user_navigates_to_concept_page_on_clicking_Exit());
 	}
-	@Test(priority=42)
-	public void verify_user_navigates_to_Analytics_page_by_clicking_on_Analytics_button()
-	{
+
+	@Test(priority = 42)
+	public void verify_user_navigates_to_Analytics_page_by_clicking_on_Analytics_button() {
 		Assert.assertTrue(Teach.user_navigates_to_Analytics_page_by_clicking_on_Analytics_button());
 	}
-	@Test(priority=43)
-	public void verify_user_is_able_to_view_chapter_analytics()
-	{
+
+	@Test(priority = 43)
+	public void verify_user_is_able_to_view_chapter_analytics() {
 		Assert.assertTrue(Teach.view_chapter_analytics());
 	}
-	@Test(priority=44)
-	public void verify_user_is_able_to_view_concepts_covered()
-	{
+
+	@Test(priority = 44)
+	public void verify_user_is_able_to_view_concepts_covered() {
 		Assert.assertTrue(Teach.concepts_covered_is_present());
 	}
-	@Test(priority=45)
-	public void verify_user_is_able_to_view_chapter_tests()
-	{
+
+	@Test(priority = 45)
+	public void verify_user_is_able_to_view_chapter_tests() {
 		Assert.assertTrue(Teach.chapter_tests_completed_is_present());
 	}
-	@Test(priority=46)
-	public void verify_user_is_able_to_view_concepts_analytics()
-	{
+
+	@Test(priority = 46)
+	public void verify_user_is_able_to_view_concepts_analytics() {
 		Assert.assertTrue(Teach.concept_analytics_is_present());
 	}
-	@Test(priority=47)
-	public void verify_user_is_able_to_Watch_video()
-	{
+
+	@Test(priority = 47)
+	public void verify_user_is_able_to_Watch_video() {
 		Assert.assertTrue(Teach.Watch_video_button_is_present());
 	}
-	@Test(priority=48)
-	public void verify_clicking_on_watch_video_navigates_to_concept_page()
-	{
+
+	@Test(priority = 48)
+	public void verify_clicking_on_watch_video_navigates_to_concept_page() {
 		Assert.assertTrue(Teach.clicking_on_watch_video_navigates_to_concept_page());
 	}
 }
-/*	@Test(priority=39)
-	public void verify_user_navigates_to_analytics_page_on_clicking_analyticsbtn()
-	{
-		
-		Assert.assertTrue(Teach.analytics_button_should_be_present());
-	}
-}*/
+/*
+ * @Test(priority=39) public void
+ * verify_user_navigates_to_analytics_page_on_clicking_analyticsbtn() {
+ * 
+ * Assert.assertTrue(Teach.analytics_button_should_be_present()); } }
+ */

@@ -9,10 +9,11 @@ public class CreateTestTest  extends TestSessionInitiator {
 
 	@Test(priority = 1)
 	public void verify_user_is_able_to_login() {
-		LoginPage.launchApplicationUrl();
-		LoginPage.navigateToSignInWithSchoolId();
-		LoginPage.UserIsAbleToLoginWithValidCrendentials();
-
+		loginAction.launchApplicationUrl();
+		loginAction.ClickSignIn_UsingSchoolId();
+		loginAction.enterValidCredentials();
+		loginAction.clickOnContine();
+		Assert.assertTrue(loginAction.verifyHomepage());
 	} 
 	@Test(priority=2)
 	public void verify_create_test_tab_is_displayed_and_clickable()
@@ -24,30 +25,7 @@ public class CreateTestTest  extends TestSessionInitiator {
 	{
 		Assert.assertTrue(CreateTest.navigate_to_assessment_creation_page());
 	}
-	/*@Test(priority=4)
- public void verify_class_is_displayed_and_is_clickable()
- {
-		Assert.assertTrue(CreateTest.click_on_class());
- }
-	
-	@Test(priority=5)
-	public void verify_class_options()
-	{
-		
-		CreateTest.verify_class_options_in_dropdown();
-		
-	}
-	/*@Test(priority=6)
-	public void verify_user_is_able_to_click_on_subject()
-	{
-		Assert.assertTrue(CreateTest.click_on_subject());
-	}
-	/*@Test(priority=7)
-	public void verify_subject_options()
-	{
-		CreateTest.verify_subject_options();
-	}*/
-	
+
 	@Test(priority=8)
 	public void verify_user_is_able_to_select_assessment_type()
 	{

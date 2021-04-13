@@ -16,7 +16,6 @@ import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.ITestResult;
 import org.testng.Reporter;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
@@ -24,12 +23,16 @@ import org.testng.annotations.BeforeSuite;
 
 import com.qait.automation.utils.ConfigPropertyReader;
 import com.qait.automation.utils.TakeScreenshot;
+import com.qait.keywords.AssignHomeworkActions;
+import com.qait.keywords.AssignTestActions;
+import com.qait.keywords.CreateTestActions;
 import com.qait.keywords.HomepageAction;
 import com.qait.keywords.HomeworkAction;
 import com.qait.keywords.LiveClassesAction;
 import com.qait.keywords.LoginPageAction;
 import com.qait.keywords.NotificationAction;
 import com.qait.keywords.ProfileAction;
+import com.qait.keywords.TeachActions;
 
 public class TestSessionInitiator {
 
@@ -64,6 +67,10 @@ public class TestSessionInitiator {
 	public NotificationAction notificationAction;
 	public ProfileAction profileAction;
 	public HomeworkAction homeworkAction;
+	public AssignHomeworkActions AssignHomework;
+	public CreateTestActions CreateTest;
+	public AssignTestActions AssignTest;
+	public TeachActions Teach;
 
 	public WebDriver getDriver() {
 		return this.driver;
@@ -76,6 +83,11 @@ public class TestSessionInitiator {
 		notificationAction = new NotificationAction(driver);
 		profileAction = new ProfileAction(driver);
 		homeworkAction = new HomeworkAction(driver);
+		AssignHomework = new AssignHomeworkActions(driver);
+		CreateTest = new CreateTestActions(driver);
+		AssignTest = new AssignTestActions(driver);
+		Teach = new TeachActions(driver);
+
 	}
 
 	/**
