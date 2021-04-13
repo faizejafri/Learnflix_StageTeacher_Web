@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1615526005027" stop="1615526070183" version="1.5.0" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default suite : Default test</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1615526010272" stop="1615526066068" status="passed">
+            <name>Login</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.qait.tests.HomepageTest"/>
+                <label name="testMethod" value="Login"/>
+                <label name="host" value="faizejafri-Vostro-15-3568"/>
+                <label name="thread" value="139679@faizejafri-Vostro-15-3568.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1615526010272" stop="1615526066068" status="passed">
+            <name>Login</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.qait.tests.HomepageTest"/>
+                <label name="testMethod" value="Login"/>
+                <label name="host" value="faizejafri-Vostro-15-3568"/>
+                <label name="thread" value="139679@faizejafri-Vostro-15-3568.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1615526066100" stop="1615526066493" status="passed">
+            <name>verify_SideLinks_are_present</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.qait.tests.HomepageTest"/>
+                <label name="testMethod" value="verify_SideLinks_are_present"/>
+                <label name="host" value="faizejafri-Vostro-15-3568"/>
+                <label name="thread" value="139679@faizejafri-Vostro-15-3568.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1615526066100" stop="1615526066493" status="passed">
+            <name>verify_SideLinks_are_present</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.qait.tests.HomepageTest"/>
+                <label name="testMethod" value="verify_SideLinks_are_present"/>
+                <label name="host" value="faizejafri-Vostro-15-3568"/>
+                <label name="thread" value="139679@faizejafri-Vostro-15-3568.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1615526066505" stop="1615526066601" status="passed">
+            <name>verify_Learnflix_logo</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.qait.tests.HomepageTest"/>
+                <label name="testMethod" value="verify_Learnflix_logo"/>
+                <label name="host" value="faizejafri-Vostro-15-3568"/>
+                <label name="thread" value="139679@faizejafri-Vostro-15-3568.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1615526066505" stop="1615526066601" status="passed">
+            <name>verify_Learnflix_logo</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.qait.tests.HomepageTest"/>
+                <label name="testMethod" value="verify_Learnflix_logo"/>
+                <label name="host" value="faizejafri-Vostro-15-3568"/>
+                <label name="thread" value="139679@faizejafri-Vostro-15-3568.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1615526066620" stop="1615526067210" status="passed">
+            <name>verify_Profile_Dropdown</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.qait.tests.HomepageTest"/>
+                <label name="testMethod" value="verify_Profile_Dropdown"/>
+                <label name="host" value="faizejafri-Vostro-15-3568"/>
+                <label name="thread" value="139679@faizejafri-Vostro-15-3568.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1615526066620" stop="1615526067210" status="passed">
+            <name>verify_Profile_Dropdown</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.qait.tests.HomepageTest"/>
+                <label name="testMethod" value="verify_Profile_Dropdown"/>
+                <label name="host" value="faizejafri-Vostro-15-3568"/>
+                <label name="thread" value="139679@faizejafri-Vostro-15-3568.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1615526067218" stop="1615526067508" status="passed">
+            <name>verify_Home_Tab_links</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.qait.tests.HomepageTest"/>
+                <label name="testMethod" value="verify_Home_Tab_links"/>
+                <label name="host" value="faizejafri-Vostro-15-3568"/>
+                <label name="thread" value="139679@faizejafri-Vostro-15-3568.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1615526067218" stop="1615526067508" status="passed">
+            <name>verify_Home_Tab_links</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.qait.tests.HomepageTest"/>
+                <label name="testMethod" value="verify_Home_Tab_links"/>
+                <label name="host" value="faizejafri-Vostro-15-3568"/>
+                <label name="thread" value="139679@faizejafri-Vostro-15-3568.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1615526067517" stop="1615526068065" status="passed">
+            <name>verify_CreateHomework_link</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.qait.tests.HomepageTest"/>
+                <label name="testMethod" value="verify_CreateHomework_link"/>
+                <label name="host" value="faizejafri-Vostro-15-3568"/>
+                <label name="thread" value="139679@faizejafri-Vostro-15-3568.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1615526067517" stop="1615526068065" status="passed">
+            <name>verify_CreateHomework_link</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.qait.tests.HomepageTest"/>
+                <label name="testMethod" value="verify_CreateHomework_link"/>
+                <label name="host" value="faizejafri-Vostro-15-3568"/>
+                <label name="thread" value="139679@faizejafri-Vostro-15-3568.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1615526068074" stop="1615526069072" status="passed">
+            <name>verify_CreateNewAssessment_link</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.qait.tests.HomepageTest"/>
+                <label name="testMethod" value="verify_CreateNewAssessment_link"/>
+                <label name="host" value="faizejafri-Vostro-15-3568"/>
+                <label name="thread" value="139679@faizejafri-Vostro-15-3568.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1615526068074" stop="1615526069072" status="passed">
+            <name>verify_CreateNewAssessment_link</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.qait.tests.HomepageTest"/>
+                <label name="testMethod" value="verify_CreateNewAssessment_link"/>
+                <label name="host" value="faizejafri-Vostro-15-3568"/>
+                <label name="thread" value="139679@faizejafri-Vostro-15-3568.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1615526069078" stop="1615526069617" status="passed">
+            <name>verify_CreateLiveClass_link</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.qait.tests.HomepageTest"/>
+                <label name="testMethod" value="verify_CreateLiveClass_link"/>
+                <label name="host" value="faizejafri-Vostro-15-3568"/>
+                <label name="thread" value="139679@faizejafri-Vostro-15-3568.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1615526069078" stop="1615526069617" status="passed">
+            <name>verify_CreateLiveClass_link</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.qait.tests.HomepageTest"/>
+                <label name="testMethod" value="verify_CreateLiveClass_link"/>
+                <label name="host" value="faizejafri-Vostro-15-3568"/>
+                <label name="thread" value="139679@faizejafri-Vostro-15-3568.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1615526069624" stop="1615526070161" status="passed">
+            <name>verify_CreateNewNotifications_link</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.qait.tests.HomepageTest"/>
+                <label name="testMethod" value="verify_CreateNewNotifications_link"/>
+                <label name="host" value="faizejafri-Vostro-15-3568"/>
+                <label name="thread" value="139679@faizejafri-Vostro-15-3568.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1615526069624" stop="1615526070161" status="passed">
+            <name>verify_CreateNewNotifications_link</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.qait.tests.HomepageTest"/>
+                <label name="testMethod" value="verify_CreateNewNotifications_link"/>
+                <label name="host" value="faizejafri-Vostro-15-3568"/>
+                <label name="thread" value="139679@faizejafri-Vostro-15-3568.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

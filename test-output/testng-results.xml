@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+    <line>
+      <![CDATA[[INFO]: The test Browser is FIREFOX !!!]]>
+    </line>
+    <line>
+      <![CDATA[Clicked Element [[FirefoxDriver: firefox on LINUX (f59929f6-87c6-4bf1-9b98-ac2d6d5fa422)] -> xpath: //button[text()=' Sign in with School Id ']]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked Element [[FirefoxDriver: firefox on LINUX (f59929f6-87c6-4bf1-9b98-ac2d6d5fa422)] -> xpath: //button[text()=' Continue ']]]]>
+    </line>
+    <line>
+      <![CDATA[Teach link is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Homework link is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Assessments link is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Live Classes link is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Notifications link is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Profile link is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Verified! Learnflix logo is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Clicked Element [[FirefoxDriver: firefox on LINUX (f59929f6-87c6-4bf1-9b98-ac2d6d5fa422)] -> xpath: //img[@class='profile-pic d-inline cursor-pointer']]]]>
+    </line>
+    <line>
+      <![CDATA[Verified: Dropdown Element PROFILE is displayed!]]>
+    </line>
+    <line>
+      <![CDATA[Verified: Dropdown Element FEEDBACK is displayed!]]>
+    </line>
+    <line>
+      <![CDATA[Verified: Dropdown Element LOGOUT is displayed!]]>
+    </line>
+    <line>
+      <![CDATA[Verified: Create Test Links is displayed on Home Tab]]>
+    </line>
+    <line>
+      <![CDATA[Verified: Assign Test Links is displayed on Home Tab]]>
+    </line>
+    <line>
+      <![CDATA[Verified: Create Homework Links is displayed on Home Tab]]>
+    </line>
+    <line>
+      <![CDATA[Verified: Assign Homework Links is displayed on Home Tab]]>
+    </line>
+    <line>
+      <![CDATA[Clicked Element [[FirefoxDriver: firefox on LINUX (f59929f6-87c6-4bf1-9b98-ac2d6d5fa422)] -> xpath: //div[text()='Homework']]]]>
+    </line>
+    <line>
+      <![CDATA[Verified:Create Homework is displayed on Homeworktab]]>
+    </line>
+    <line>
+      <![CDATA[Clicked Element [[FirefoxDriver: firefox on LINUX (f59929f6-87c6-4bf1-9b98-ac2d6d5fa422)] -> xpath: //div[text()='Assessments']]]]>
+    </line>
+    <line>
+      <![CDATA[Verified:Create New Assessment is displayed on Assessmentstab]]>
+    </line>
+    <line>
+      <![CDATA[Clicked Element [[FirefoxDriver: firefox on LINUX (f59929f6-87c6-4bf1-9b98-ac2d6d5fa422)] -> xpath: //div[text()='Live Classes']]]]>
+    </line>
+    <line>
+      <![CDATA[Verified:Create Live Class is displayed on Live Classestab]]>
+    </line>
+    <line>
+      <![CDATA[Clicked Element [[FirefoxDriver: firefox on LINUX (f59929f6-87c6-4bf1-9b98-ac2d6d5fa422)] -> xpath: //div[text()='Notifications']]]]>
+    </line>
+    <line>
+      <![CDATA[Verified:Create New Notification is displayed on Notificationstab]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31340" started-at="2021-03-26T07:11:27Z" finished-at="2021-03-26T07:11:58Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31340" started-at="2021-03-26T07:11:27Z" finished-at="2021-03-26T07:11:58Z">
+      <class name="com.qait.tests.HomepageTest">
+        <test-method status="PASS" signature="TestSessionInitiators()[pri:0, instance:com.qait.tests.HomepageTest@703580bf]" name="TestSessionInitiators" is-config="true" duration-ms="27" started-at="2021-03-26T12:41:27Z" finished-at="2021-03-26T12:41:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSessionInitiators -->
+        <test-method status="PASS" signature="launchMyApplication()[pri:0, instance:com.qait.tests.HomepageTest@703580bf]" name="launchMyApplication" is-config="true" duration-ms="4521" started-at="2021-03-26T12:41:27Z" finished-at="2021-03-26T12:41:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO]: The test Browser is FIREFOX !!!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchMyApplication -->
+        <test-method status="PASS" signature="logTestMethod(java.lang.reflect.Method)[pri:0, instance:com.qait.tests.HomepageTest@703580bf]" name="logTestMethod" is-config="true" duration-ms="1" started-at="2021-03-26T12:41:31Z" finished-at="2021-03-26T12:41:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qait.tests.HomepageTest.Login()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestMethod -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:com.qait.tests.HomepageTest@703580bf]" name="Login" duration-ms="21433" started-at="2021-03-26T12:41:31Z" finished-at="2021-03-26T12:41:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked Element [[FirefoxDriver: firefox on LINUX (f59929f6-87c6-4bf1-9b98-ac2d6d5fa422)] -> xpath: //button[text()=' Sign in with School Id ']]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked Element [[FirefoxDriver: firefox on LINUX (f59929f6-87c6-4bf1-9b98-ac2d6d5fa422)] -> xpath: //button[text()=' Continue ']]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="take_screenshot_on_failure(org.testng.ITestResult)[pri:0, instance:com.qait.tests.HomepageTest@703580bf]" name="take_screenshot_on_failure" is-config="true" duration-ms="3" started-at="2021-03-26T12:41:53Z" finished-at="2021-03-26T12:41:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login status=SUCCESS method=HomepageTest.Login()[pri:0, instance:com.qait.tests.HomepageTest@703580bf] output=Clicked Element [[FirefoxDriver: firefox on LINUX (f59929f6-87c6-4bf1-9b98-ac2d6d5fa422)] -> xpath: //button[text()=' Sign in with School Id ']]]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- take_screenshot_on_failure -->
+        <test-method status="PASS" signature="verify_SideLinks_are_present()[pri:0, instance:com.qait.tests.HomepageTest@703580bf]" name="verify_SideLinks_are_present" duration-ms="454" started-at="2021-03-26T12:41:53Z" finished-at="2021-03-26T12:41:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Teach link is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Homework link is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Assessments link is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Live Classes link is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Notifications link is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Profile link is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_SideLinks_are_present -->
+        <test-method status="PASS" signature="logTestMethod(java.lang.reflect.Method)[pri:0, instance:com.qait.tests.HomepageTest@703580bf]" name="logTestMethod" is-config="true" duration-ms="0" started-at="2021-03-26T12:41:53Z" finished-at="2021-03-26T12:41:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qait.tests.HomepageTest.verify_SideLinks_are_present()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestMethod -->
+        <test-method status="PASS" signature="take_screenshot_on_failure(org.testng.ITestResult)[pri:0, instance:com.qait.tests.HomepageTest@703580bf]" name="take_screenshot_on_failure" is-config="true" duration-ms="5" started-at="2021-03-26T12:41:53Z" finished-at="2021-03-26T12:41:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verify_SideLinks_are_present status=SUCCESS method=HomepageTest.verify_SideLinks_are_present()[pri:0, instance:com.qait.tests.HomepageTest@703580bf] output=Teach link is displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- take_screenshot_on_failure -->
+        <test-method status="PASS" signature="logTestMethod(java.lang.reflect.Method)[pri:0, instance:com.qait.tests.HomepageTest@703580bf]" name="logTestMethod" is-config="true" duration-ms="1" started-at="2021-03-26T12:41:53Z" finished-at="2021-03-26T12:41:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qait.tests.HomepageTest.verify_Learnflix_logo()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestMethod -->
+        <test-method status="PASS" signature="verify_Learnflix_logo()[pri:0, instance:com.qait.tests.HomepageTest@703580bf]" name="verify_Learnflix_logo" duration-ms="92" started-at="2021-03-26T12:41:53Z" finished-at="2021-03-26T12:41:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Verified! Learnflix logo is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_Learnflix_logo -->
+        <test-method status="PASS" signature="take_screenshot_on_failure(org.testng.ITestResult)[pri:0, instance:com.qait.tests.HomepageTest@703580bf]" name="take_screenshot_on_failure" is-config="true" duration-ms="2" started-at="2021-03-26T12:41:53Z" finished-at="2021-03-26T12:41:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verify_Learnflix_logo status=SUCCESS method=HomepageTest.verify_Learnflix_logo()[pri:0, instance:com.qait.tests.HomepageTest@703580bf] output=Verified! Learnflix logo is displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- take_screenshot_on_failure -->
+        <test-method status="PASS" signature="logTestMethod(java.lang.reflect.Method)[pri:0, instance:com.qait.tests.HomepageTest@703580bf]" name="logTestMethod" is-config="true" duration-ms="1" started-at="2021-03-26T12:41:53Z" finished-at="2021-03-26T12:41:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qait.tests.HomepageTest.verify_Profile_Dropdown()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestMethod -->
+        <test-method status="PASS" signature="verify_Profile_Dropdown()[pri:0, instance:com.qait.tests.HomepageTest@703580bf]" name="verify_Profile_Dropdown" duration-ms="1149" started-at="2021-03-26T12:41:53Z" finished-at="2021-03-26T12:41:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked Element [[FirefoxDriver: firefox on LINUX (f59929f6-87c6-4bf1-9b98-ac2d6d5fa422)] -> xpath: //img[@class='profile-pic d-inline cursor-pointer']]]]>
+            </line>
+            <line>
+              <![CDATA[Verified: Dropdown Element PROFILE is displayed!]]>
+            </line>
+            <line>
+              <![CDATA[Verified: Dropdown Element FEEDBACK is displayed!]]>
+            </line>
+            <line>
+              <![CDATA[Verified: Dropdown Element LOGOUT is displayed!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_Profile_Dropdown -->
+        <test-method status="PASS" signature="take_screenshot_on_failure(org.testng.ITestResult)[pri:0, instance:com.qait.tests.HomepageTest@703580bf]" name="take_screenshot_on_failure" is-config="true" duration-ms="1" started-at="2021-03-26T12:41:54Z" finished-at="2021-03-26T12:41:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verify_Profile_Dropdown status=SUCCESS method=HomepageTest.verify_Profile_Dropdown()[pri:0, instance:com.qait.tests.HomepageTest@703580bf] output=Clicked Element [[FirefoxDriver: firefox on LINUX (f59929f6-87c6-4bf1-9b98-ac2d6d5fa422)] -> xpath: //img[@class='profile-pic d-inline cursor-pointer']]]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- take_screenshot_on_failure -->
+        <test-method status="PASS" signature="logTestMethod(java.lang.reflect.Method)[pri:0, instance:com.qait.tests.HomepageTest@703580bf]" name="logTestMethod" is-config="true" duration-ms="1" started-at="2021-03-26T12:41:54Z" finished-at="2021-03-26T12:41:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qait.tests.HomepageTest.verify_Home_Tab_links()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestMethod -->
+        <test-method status="PASS" signature="verify_Home_Tab_links()[pri:0, instance:com.qait.tests.HomepageTest@703580bf]" name="verify_Home_Tab_links" duration-ms="360" started-at="2021-03-26T12:41:54Z" finished-at="2021-03-26T12:41:55Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Verified: Create Test Links is displayed on Home Tab]]>
+            </line>
+            <line>
+              <![CDATA[Verified: Assign Test Links is displayed on Home Tab]]>
+            </line>
+            <line>
+              <![CDATA[Verified: Create Homework Links is displayed on Home Tab]]>
+            </line>
+            <line>
+              <![CDATA[Verified: Assign Homework Links is displayed on Home Tab]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_Home_Tab_links -->
+        <test-method status="PASS" signature="take_screenshot_on_failure(org.testng.ITestResult)[pri:0, instance:com.qait.tests.HomepageTest@703580bf]" name="take_screenshot_on_failure" is-config="true" duration-ms="2" started-at="2021-03-26T12:41:55Z" finished-at="2021-03-26T12:41:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verify_Home_Tab_links status=SUCCESS method=HomepageTest.verify_Home_Tab_links()[pri:0, instance:com.qait.tests.HomepageTest@703580bf] output=Verified: Create Test Links is displayed on Home Tab]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- take_screenshot_on_failure -->
+        <test-method status="PASS" signature="verify_CreateHomework_link()[pri:0, instance:com.qait.tests.HomepageTest@703580bf]" name="verify_CreateHomework_link" duration-ms="1001" started-at="2021-03-26T12:41:55Z" finished-at="2021-03-26T12:41:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked Element [[FirefoxDriver: firefox on LINUX (f59929f6-87c6-4bf1-9b98-ac2d6d5fa422)] -> xpath: //div[text()='Homework']]]]>
+            </line>
+            <line>
+              <![CDATA[Verified:Create Homework is displayed on Homeworktab]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_CreateHomework_link -->
+        <test-method status="PASS" signature="logTestMethod(java.lang.reflect.Method)[pri:0, instance:com.qait.tests.HomepageTest@703580bf]" name="logTestMethod" is-config="true" duration-ms="0" started-at="2021-03-26T12:41:55Z" finished-at="2021-03-26T12:41:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qait.tests.HomepageTest.verify_CreateHomework_link()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestMethod -->
+        <test-method status="PASS" signature="take_screenshot_on_failure(org.testng.ITestResult)[pri:0, instance:com.qait.tests.HomepageTest@703580bf]" name="take_screenshot_on_failure" is-config="true" duration-ms="2" started-at="2021-03-26T12:41:56Z" finished-at="2021-03-26T12:41:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verify_CreateHomework_link status=SUCCESS method=HomepageTest.verify_CreateHomework_link()[pri:0, instance:com.qait.tests.HomepageTest@703580bf] output=Clicked Element [[FirefoxDriver: firefox on LINUX (f59929f6-87c6-4bf1-9b98-ac2d6d5fa422)] -> xpath: //div[text()='Homework']]]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- take_screenshot_on_failure -->
+        <test-method status="PASS" signature="verify_CreateNewAssessment_link()[pri:0, instance:com.qait.tests.HomepageTest@703580bf]" name="verify_CreateNewAssessment_link" duration-ms="651" started-at="2021-03-26T12:41:56Z" finished-at="2021-03-26T12:41:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked Element [[FirefoxDriver: firefox on LINUX (f59929f6-87c6-4bf1-9b98-ac2d6d5fa422)] -> xpath: //div[text()='Assessments']]]]>
+            </line>
+            <line>
+              <![CDATA[Verified:Create New Assessment is displayed on Assessmentstab]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_CreateNewAssessment_link -->
+        <test-method status="PASS" signature="logTestMethod(java.lang.reflect.Method)[pri:0, instance:com.qait.tests.HomepageTest@703580bf]" name="logTestMethod" is-config="true" duration-ms="0" started-at="2021-03-26T12:41:56Z" finished-at="2021-03-26T12:41:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qait.tests.HomepageTest.verify_CreateNewAssessment_link()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestMethod -->
+        <test-method status="PASS" signature="take_screenshot_on_failure(org.testng.ITestResult)[pri:0, instance:com.qait.tests.HomepageTest@703580bf]" name="take_screenshot_on_failure" is-config="true" duration-ms="13" started-at="2021-03-26T12:41:56Z" finished-at="2021-03-26T12:41:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verify_CreateNewAssessment_link status=SUCCESS method=HomepageTest.verify_CreateNewAssessment_link()[pri:0, instance:com.qait.tests.HomepageTest@703580bf] output=Clicked Element [[FirefoxDriver: firefox on LINUX (f59929f6-87c6-4bf1-9b98-ac2d6d5fa422)] -> xpath: //div[text()='Assessments']]]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- take_screenshot_on_failure -->
+        <test-method status="PASS" signature="logTestMethod(java.lang.reflect.Method)[pri:0, instance:com.qait.tests.HomepageTest@703580bf]" name="logTestMethod" is-config="true" duration-ms="1" started-at="2021-03-26T12:41:56Z" finished-at="2021-03-26T12:41:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qait.tests.HomepageTest.verify_CreateLiveClass_link()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestMethod -->
+        <test-method status="PASS" signature="verify_CreateLiveClass_link()[pri:0, instance:com.qait.tests.HomepageTest@703580bf]" name="verify_CreateLiveClass_link" duration-ms="1001" started-at="2021-03-26T12:41:56Z" finished-at="2021-03-26T12:41:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked Element [[FirefoxDriver: firefox on LINUX (f59929f6-87c6-4bf1-9b98-ac2d6d5fa422)] -> xpath: //div[text()='Live Classes']]]]>
+            </line>
+            <line>
+              <![CDATA[Verified:Create Live Class is displayed on Live Classestab]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_CreateLiveClass_link -->
+        <test-method status="PASS" signature="take_screenshot_on_failure(org.testng.ITestResult)[pri:0, instance:com.qait.tests.HomepageTest@703580bf]" name="take_screenshot_on_failure" is-config="true" duration-ms="3" started-at="2021-03-26T12:41:58Z" finished-at="2021-03-26T12:41:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verify_CreateLiveClass_link status=SUCCESS method=HomepageTest.verify_CreateLiveClass_link()[pri:0, instance:com.qait.tests.HomepageTest@703580bf] output=Clicked Element [[FirefoxDriver: firefox on LINUX (f59929f6-87c6-4bf1-9b98-ac2d6d5fa422)] -> xpath: //div[text()='Live Classes']]]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- take_screenshot_on_failure -->
+        <test-method status="PASS" signature="logTestMethod(java.lang.reflect.Method)[pri:0, instance:com.qait.tests.HomepageTest@703580bf]" name="logTestMethod" is-config="true" duration-ms="1" started-at="2021-03-26T12:41:58Z" finished-at="2021-03-26T12:41:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qait.tests.HomepageTest.verify_CreateNewNotifications_link()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestMethod -->
+        <test-method status="PASS" signature="verify_CreateNewNotifications_link()[pri:0, instance:com.qait.tests.HomepageTest@703580bf]" name="verify_CreateNewNotifications_link" duration-ms="576" started-at="2021-03-26T12:41:58Z" finished-at="2021-03-26T12:41:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked Element [[FirefoxDriver: firefox on LINUX (f59929f6-87c6-4bf1-9b98-ac2d6d5fa422)] -> xpath: //div[text()='Notifications']]]]>
+            </line>
+            <line>
+              <![CDATA[Verified:Create New Notification is displayed on Notificationstab]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_CreateNewNotifications_link -->
+        <test-method status="PASS" signature="take_screenshot_on_failure(org.testng.ITestResult)[pri:0, instance:com.qait.tests.HomepageTest@703580bf]" name="take_screenshot_on_failure" is-config="true" duration-ms="9" started-at="2021-03-26T12:41:58Z" finished-at="2021-03-26T12:41:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verify_CreateNewNotifications_link status=SUCCESS method=HomepageTest.verify_CreateNewNotifications_link()[pri:0, instance:com.qait.tests.HomepageTest@703580bf] output=Clicked Element [[FirefoxDriver: firefox on LINUX (f59929f6-87c6-4bf1-9b98-ac2d6d5fa422)] -> xpath: //div[text()='Notifications']]]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- take_screenshot_on_failure -->
+      </class> <!-- com.qait.tests.HomepageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

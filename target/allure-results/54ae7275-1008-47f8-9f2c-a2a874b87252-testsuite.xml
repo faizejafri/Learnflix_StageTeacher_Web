@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1615451464121" stop="1615451514203" version="1.5.0" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default suite : Default test</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1615451468874" stop="1615451475131" status="passed">
+            <name>launchApplication</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.qait.tests.LoginTest"/>
+                <label name="testMethod" value="launchApplication"/>
+                <label name="host" value="faizejafri-Vostro-15-3568"/>
+                <label name="thread" value="29515@faizejafri-Vostro-15-3568.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1615451468874" stop="1615451475131" status="passed">
+            <name>launchApplication</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.qait.tests.LoginTest"/>
+                <label name="testMethod" value="launchApplication"/>
+                <label name="host" value="faizejafri-Vostro-15-3568"/>
+                <label name="thread" value="29515@faizejafri-Vostro-15-3568.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1615451475167" stop="1615451475627" status="passed">
+            <name>verifySignInOptions</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.qait.tests.LoginTest"/>
+                <label name="testMethod" value="verifySignInOptions"/>
+                <label name="host" value="faizejafri-Vostro-15-3568"/>
+                <label name="thread" value="29515@faizejafri-Vostro-15-3568.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1615451475167" stop="1615451475627" status="passed">
+            <name>verifySignInOptions</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.qait.tests.LoginTest"/>
+                <label name="testMethod" value="verifySignInOptions"/>
+                <label name="host" value="faizejafri-Vostro-15-3568"/>
+                <label name="thread" value="29515@faizejafri-Vostro-15-3568.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1615451475640" stop="1615451476222" status="passed">
+            <name>verifyUsingSchoolId</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.qait.tests.LoginTest"/>
+                <label name="testMethod" value="verifyUsingSchoolId"/>
+                <label name="host" value="faizejafri-Vostro-15-3568"/>
+                <label name="thread" value="29515@faizejafri-Vostro-15-3568.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1615451475640" stop="1615451476222" status="passed">
+            <name>verifyUsingSchoolId</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.qait.tests.LoginTest"/>
+                <label name="testMethod" value="verifyUsingSchoolId"/>
+                <label name="host" value="faizejafri-Vostro-15-3568"/>
+                <label name="thread" value="29515@faizejafri-Vostro-15-3568.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1615451476241" stop="1615451476711" status="passed">
+            <name>verifyBasicPageElements</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.qait.tests.LoginTest"/>
+                <label name="testMethod" value="verifyBasicPageElements"/>
+                <label name="host" value="faizejafri-Vostro-15-3568"/>
+                <label name="thread" value="29515@faizejafri-Vostro-15-3568.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1615451476241" stop="1615451476711" status="passed">
+            <name>verifyBasicPageElements</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.qait.tests.LoginTest"/>
+                <label name="testMethod" value="verifyBasicPageElements"/>
+                <label name="host" value="faizejafri-Vostro-15-3568"/>
+                <label name="thread" value="29515@faizejafri-Vostro-15-3568.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1615451476727" stop="1615451484415" status="passed">
+            <name>verifyLogin_VALIDcredentials</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.qait.tests.LoginTest"/>
+                <label name="testMethod" value="verifyLogin_VALIDcredentials"/>
+                <label name="host" value="faizejafri-Vostro-15-3568"/>
+                <label name="thread" value="29515@faizejafri-Vostro-15-3568.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1615451476727" stop="1615451484415" status="passed">
+            <name>verifyLogin_VALIDcredentials</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.qait.tests.LoginTest"/>
+                <label name="testMethod" value="verifyLogin_VALIDcredentials"/>
+                <label name="host" value="faizejafri-Vostro-15-3568"/>
+                <label name="thread" value="29515@faizejafri-Vostro-15-3568.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1615451484432" stop="1615451514200" status="broken">
+            <name>verifyLogin_INVALIDcredentials</name>
+            <failure>
+                <message>Test was interrupted</message>
+            </failure>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.qait.tests.LoginTest"/>
+                <label name="testMethod" value="verifyLogin_INVALIDcredentials"/>
+                <label name="host" value="faizejafri-Vostro-15-3568"/>
+                <label name="thread" value="29515@faizejafri-Vostro-15-3568.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1615451484432" stop="1615451514200" status="broken">
+            <name>verifyLogin_INVALIDcredentials</name>
+            <failure>
+                <message>Test was interrupted</message>
+            </failure>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.qait.tests.LoginTest"/>
+                <label name="testMethod" value="verifyLogin_INVALIDcredentials"/>
+                <label name="host" value="faizejafri-Vostro-15-3568"/>
+                <label name="thread" value="29515@faizejafri-Vostro-15-3568.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1615451464121" stop="1615451514202" status="broken">
+            <name>Default suite : Default test</name>
+            <title>Default suite : Default test</title>
+            <failure>
+                <message>Test suite was interrupted, some test cases may be lost</message>
+            </failure>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

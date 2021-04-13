@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1615522446069" stop="1615522517000" version="1.5.0" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default suite : Default test</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1615522450755" stop="1615522469551" status="passed">
+            <name>Login</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.qait.tests.HomepageTest"/>
+                <label name="testMethod" value="Login"/>
+                <label name="host" value="faizejafri-Vostro-15-3568"/>
+                <label name="thread" value="56007@faizejafri-Vostro-15-3568.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1615522450755" stop="1615522469551" status="passed">
+            <name>Login</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.qait.tests.HomepageTest"/>
+                <label name="testMethod" value="Login"/>
+                <label name="host" value="faizejafri-Vostro-15-3568"/>
+                <label name="thread" value="56007@faizejafri-Vostro-15-3568.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1615522469578" stop="1615522470007" status="passed">
+            <name>verify_SideLinks_are_present</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.qait.tests.HomepageTest"/>
+                <label name="testMethod" value="verify_SideLinks_are_present"/>
+                <label name="host" value="faizejafri-Vostro-15-3568"/>
+                <label name="thread" value="56007@faizejafri-Vostro-15-3568.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1615522469578" stop="1615522470007" status="passed">
+            <name>verify_SideLinks_are_present</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.qait.tests.HomepageTest"/>
+                <label name="testMethod" value="verify_SideLinks_are_present"/>
+                <label name="host" value="faizejafri-Vostro-15-3568"/>
+                <label name="thread" value="56007@faizejafri-Vostro-15-3568.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1615522470016" stop="1615522470083" status="passed">
+            <name>verify_Learnflix_logo</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.qait.tests.HomepageTest"/>
+                <label name="testMethod" value="verify_Learnflix_logo"/>
+                <label name="host" value="faizejafri-Vostro-15-3568"/>
+                <label name="thread" value="56007@faizejafri-Vostro-15-3568.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1615522470016" stop="1615522470083" status="passed">
+            <name>verify_Learnflix_logo</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.qait.tests.HomepageTest"/>
+                <label name="testMethod" value="verify_Learnflix_logo"/>
+                <label name="host" value="faizejafri-Vostro-15-3568"/>
+                <label name="thread" value="56007@faizejafri-Vostro-15-3568.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1615522470094" stop="1615522470738" status="passed">
+            <name>verify_Profile_Dropdown</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.qait.tests.HomepageTest"/>
+                <label name="testMethod" value="verify_Profile_Dropdown"/>
+                <label name="host" value="faizejafri-Vostro-15-3568"/>
+                <label name="thread" value="56007@faizejafri-Vostro-15-3568.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1615522470094" stop="1615522470738" status="passed">
+            <name>verify_Profile_Dropdown</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.qait.tests.HomepageTest"/>
+                <label name="testMethod" value="verify_Profile_Dropdown"/>
+                <label name="host" value="faizejafri-Vostro-15-3568"/>
+                <label name="thread" value="56007@faizejafri-Vostro-15-3568.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1615522470746" stop="1615522516997" status="broken">
+            <name>verify_Home_Tab_links</name>
+            <failure>
+                <message>Test was interrupted</message>
+            </failure>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.qait.tests.HomepageTest"/>
+                <label name="testMethod" value="verify_Home_Tab_links"/>
+                <label name="host" value="faizejafri-Vostro-15-3568"/>
+                <label name="thread" value="56007@faizejafri-Vostro-15-3568.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1615522470746" stop="1615522516997" status="broken">
+            <name>verify_Home_Tab_links</name>
+            <failure>
+                <message>Test was interrupted</message>
+            </failure>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.qait.tests.HomepageTest"/>
+                <label name="testMethod" value="verify_Home_Tab_links"/>
+                <label name="host" value="faizejafri-Vostro-15-3568"/>
+                <label name="thread" value="56007@faizejafri-Vostro-15-3568.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1615522446069" stop="1615522516999" status="broken">
+            <name>Default suite : Default test</name>
+            <title>Default suite : Default test</title>
+            <failure>
+                <message>Test suite was interrupted, some test cases may be lost</message>
+            </failure>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
